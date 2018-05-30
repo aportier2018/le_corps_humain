@@ -1,0 +1,90 @@
+body
+{
+  font: 400 62.5% 'Arvo', serif;
+  background: #eeeeee;
+}
+
+h1
+{
+  text-align: center;
+  font-size: 3.0rem;
+  margin: 50px;
+}
+
+div
+{
+    display:flex;
+    justify-content: center;
+    width:500px;
+    height: 800px;
+    margin:auto;
+    border : 1px solid red;
+    /*position:absolute;*/
+
+}
+
+.image
+{
+  background: url(../img/qijx.png) no-repeat;
+  width: 40%;
+}
+
+.texte
+{
+    width:35%;
+    font-size: 1.2rem;
+    text-align: left;
+    overflow: hidden;
+}
+
+.rond_epaule{
+  background-color: rgba(255,0,0,0.5);
+  border-radius:50%;
+  width: 50px;
+  height:50px;
+  transform:translate(142px, 90px);
+}
+
+.rond_poignet{
+  background-color: rgba(0,0,0,0.5);
+  border-radius:50%;
+  width: 50px;
+  height:50px;
+  transform:translate(83px, 217px);
+}
+
+.rond_genou{
+  background-color: rgba(0,0,0,0.5);
+  border-radius:50%;
+  width: 50px;
+  height:50px;
+  transform:translate(71px, 334px);
+}
+
+.rond_cheville{
+  background-color: rgba(0,0,0,0.5);
+  border-radius:50%;
+  width: 50px;
+  height:50px;
+  transform:translate(111px, 432px);
+}
+
+.rond_hanche{
+  background-color: rgba(0,0,0,0.5);
+  border-radius:50%;
+  width: 50px;
+  height:50px;
+  transform:translate(135px, 240px);
+}
+
+.rond_coude{
+  background-color: rgba(0,0,0,0.5);
+  border-radius:50%;
+  width: 50px;
+  height:50px;
+  transform:translate(147px, 172px);
+}
+.texte
+{
+  border:1px solid green;
+}
