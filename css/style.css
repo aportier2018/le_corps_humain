@@ -11,80 +11,105 @@ h1
   margin: 50px;
 }
 
-div
-{
-    display:flex;
-    justify-content: center;
-    width:500px;
-    height: 800px;
-    margin:auto;
-    border : 1px solid red;
-    /*position:absolute;*/
-
-}
-
 .image
 {
   background: url(../img/qijx.png) no-repeat;
-  width: 40%;
+  height:500px;
+  width: 150px;
+  margin:auto;
+  position:relative;
+  border: 1px solid red;
 }
 
-.texte
-{
-    width:35%;
-    font-size: 1.2rem;
-    text-align: left;
-    overflow: hidden;
-}
+ #texte1
+ {position: absolute;
+  font-size: 1.0rem;
+  width : 200px;
+  height:500px;
+  margin-left : 180px;
+  border: 1px solid blue;
+  opacity:0;
+  color:red;
+ }
 
-.rond_epaule{
+#texte1:target{
+  opacity :1;
+}
+ #texte2
+ {position: absolute;
+  font-size: 1.0rem;
+  width : 200px;
+  height:500px;
+  margin-left : 180px;
+  border: 1px solid blue;
+  opacity : 1;
+ }
+
+ .rond_epaule{
+  position:absolute;
   background-color: rgba(255,0,0,0.5);
   border-radius:50%;
   width: 50px;
   height:50px;
-  transform:translate(142px, 90px);
+  top:90px;
+  left:-2px;
+
 }
 
+
 .rond_poignet{
+  position:absolute;
   background-color: rgba(0,0,0,0.5);
   border-radius:50%;
   width: 50px;
   height:50px;
-  transform:translate(83px, 217px);
+  top:214px;
+  left:-8px;
+
 }
 
 .rond_genou{
+  position: absolute;
   background-color: rgba(0,0,0,0.5);
   border-radius:50%;
   width: 50px;
   height:50px;
-  transform:translate(71px, 334px);
+  top:328px;
+  left:23px;
+  /*transform:translate(23px, 328px);*/
 }
 
-.rond_cheville{
-  background-color: rgba(0,0,0,0.5);
-  border-radius:50%;
-  width: 50px;
-  height:50px;
-  transform:translate(111px, 432px);
-}
-
-.rond_hanche{
-  background-color: rgba(0,0,0,0.5);
-  border-radius:50%;
-  width: 50px;
-  height:50px;
-  transform:translate(135px, 240px);
-}
-
-.rond_coude{
-  background-color: rgba(0,0,0,0.5);
-  border-radius:50%;
-  width: 50px;
-  height:50px;
-  transform:translate(147px, 172px);
-}
-.texte
+.rond_cheville
 {
-  border:1px solid green;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  border-radius:50%;
+  width: 50px;
+  height:50px;
+  top: 424px;
+  left : 65px;
+/*  transform:translate(65px, 424px);*/
+}
+
+.rond_hanche
+{
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  border-radius:50%;
+  width: 50px;
+  height:50px;
+  top: 233px;
+  left:81px;
+  /*transform:translate(81px, 233px);*/
+}
+
+.rond_coude
+{
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  border-radius:50%;
+  width: 50px;
+  height:50px;top: 164px;
+  left: 100px;
+  /*transform:translate(100px, 164px);*/
 }
