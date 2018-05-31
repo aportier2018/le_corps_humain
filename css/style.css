@@ -4,13 +4,16 @@ body
   background: #eeeeee;
 }
 
+main{
+  position: absolute;
+  left: 35%;
+}
 /*entête */
 h1
 {
   text-align: center;
   font-size: 3.0rem;
-  margin-bottom: 8%;
-  border:1px solid red;
+  margin-bottom: 20%;
 }
 
 /*image en fond */
@@ -20,7 +23,7 @@ h1
   background: url(../img/qijx.png) no-repeat;
   height:500px;
   width: 150px;
-  margin-left: 35%;
+  margin-left: 4%;
   position:relative;
 }
 
@@ -111,7 +114,7 @@ h1
   /*transform:translate(100px, 164px);*/
 }
 
-/*passage au rouge lors du clic */
+/* passage au rouge lors du clic */
 .rond_epaule:hover,
 .rond_poignet:hover,
 .rond_genou:hover,
