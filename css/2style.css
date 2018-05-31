@@ -9,6 +9,7 @@ main{
   width : 500px;
   left:50%;
   transform: translate(-50%, 0%);
+  border: 1px solid green;
 }
 
 /*titre */
@@ -29,6 +30,7 @@ h1
   width: 150px;
   margin-left: 4%;
   position:relative;
+  border: 1px solid red;
 }
 
 /* texte des différents bouton */
@@ -37,13 +39,52 @@ h1
   position: absolute;
   font-size: 1.0rem;
   width : 250px;
-  height:500px;
+  height: 500px;
   margin-left : 180px;
-  display: none;
-  /*overflow: hidden;*/
+  display:none;
+  border: 1px solid blue;
  }
 
-.texte:target
+ /* placement du texte par rapport au bouton*/
+ #texte_epaule
+ {
+   margin-top: -90px;
+   margin-left: 175px;
+ }
+
+ #texte_poignet
+ {
+   margin-top:-214px;
+
+ }
+
+ #texte_genou
+ {
+   margin-top:-328px;
+   margin-left: 155px;
+ }
+
+ #texte_cheville
+ {
+   margin-top:-424px;
+   margin-left: 115px;
+ }
+
+ #texte_hanche
+ {
+   margin-top: -235px;
+   margin-left: 100px;
+ }
+
+ #texte_coude
+ {
+   margin-top: -170px;
+   margin-left: 80px;
+ }
+
+/*
+.rond_epaule:hover .texte*/
+.image div:hover .texte
 {
   display:block;
 }
@@ -113,7 +154,8 @@ h1
   background-color: rgba(0,0,0,0.5);
   border-radius:50%;
   width: 50px;
-  height:50px;top: 164px;
+  height:50px;
+  top: 164px;
   left: 100px;
   /*transform:translate(100px, 164px);*/
 }
