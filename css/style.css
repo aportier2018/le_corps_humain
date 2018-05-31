@@ -18,32 +18,23 @@ h1
   width: 150px;
   margin:auto;
   position:relative;
-  border: 1px solid red;
 }
 
- #texte1
- {position: absolute;
+ .texte
+ {
+  position: absolute;
   font-size: 1.0rem;
-  width : 200px;
+  width : 250px;
   height:500px;
   margin-left : 180px;
-  border: 1px solid blue;
-  opacity:0;
-  color:red;
+  display: none;
+  /*overflow: hidden;*/
+  border: 1px solid black;
  }
 
-#texte1:target{
-  opacity :1;
+.texte:target{
+  display:block;
 }
- #texte2
- {position: absolute;
-  font-size: 1.0rem;
-  width : 200px;
-  height:500px;
-  margin-left : 180px;
-  border: 1px solid blue;
-  opacity : 1;
- }
 
  .rond_epaule{
   position:absolute;
@@ -53,9 +44,7 @@ h1
   height:50px;
   top:90px;
   left:-2px;
-
 }
-
 
 .rond_poignet{
   position:absolute;
@@ -65,7 +54,6 @@ h1
   height:50px;
   top:214px;
   left:-8px;
-
 }
 
 .rond_genou{
